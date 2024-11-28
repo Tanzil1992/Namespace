@@ -4,6 +4,7 @@ tuple_ = ""
 def count_calls(b):
     global calls
     calls = calls + 1
+    return calls
 
 def string_info(string):
     global tuple_
